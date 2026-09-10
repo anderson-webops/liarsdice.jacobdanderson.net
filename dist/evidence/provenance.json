@@ -1,0 +1,20 @@
+{
+  "research_completed": "2026-09-09",
+  "site_prepared": "2026-09-10",
+  "confirmation_summary_sha256": "ffad0d9948a1ff8c886a72dbf10f1dc455014a058d442291b81f6295cbd37c24",
+  "source_artifact": "research_results/2026-09-07/confirmation-summary.json",
+  "source_document_sha256": {
+    "research_results/2026-09-07/FINDINGS.md": "65b6c0e659b25531a19d7e9781550fd5abfaf12dba7fe76966dc7cd94b816978",
+    "research_results/2026-09-07/STRATEGY_RESULTS.md": "8f5904c662549263f8788b1769b6a67dce4ea6b7203285b03409936f3f8439e8",
+    "COMPLETION_AUDIT.md": "f402aeccaf555a08ace6bfeecc0fb62a29b047cd1f63c0d87cb56eece79df48f"
+  },
+  "execution_source_sha256": {
+    "liars_dice_sim.py": "7b4b08eca61dabe4fed40fc05ec2a362576d452f7803a14ef73fa6d893d62608",
+    "advanced_strategies.py": "7bcd8106277f2306d54947df6e6efb7763e5b74933a4612d64725716087bd822",
+    "strategy_research.py": "8d176989c0205d842c23555ddee9a654e8094c5d19a54b5fcc53ff5d2516b79d"
+  },
+  "verification": "The published confirmation summary is byte-for-byte identical to the simulator export. Current execution-source hashes matched the frozen research provenance on 2026-09-10.",
+  "confirmation_games": 3377152,
+  "total_research_games": 7180416,
+  "statistical_scope": "Simultaneous 95% bounds for 5,180 frozen estimates. Heads-up challenger averages, mixed panels, and targeted homogeneous-opponent tests are distinct comparisons."
+}
