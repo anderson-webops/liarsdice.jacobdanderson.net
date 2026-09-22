@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "approval_owner": "Jacoba1100254352",
+  "approval_scope": "Rotate only after independent review of the authoritative simulator export, source hashes, visible claims, passive-content policy, and complete dist inventory.",
+  "confirmation_summary_sha256": "ffad0d9948a1ff8c886a72dbf10f1dc455014a058d442291b81f6295cbd37c24",
+  "source_document_sha256": {
+    "research_results/2026-09-07/FINDINGS.md": "65b6c0e659b25531a19d7e9781550fd5abfaf12dba7fe76966dc7cd94b816978",
+    "research_results/2026-09-07/STRATEGY_RESULTS.md": "8f5904c662549263f8788b1769b6a67dce4ea6b7203285b03409936f3f8439e8",
+    "COMPLETION_AUDIT.md": "f402aeccaf555a08ace6bfeecc0fb62a29b047cd1f63c0d87cb56eece79df48f"
+  },
+  "execution_source_sha256": {
+    "liars_dice_sim.py": "7b4b08eca61dabe4fed40fc05ec2a362576d452f7803a14ef73fa6d893d62608",
+    "advanced_strategies.py": "7bcd8106277f2306d54947df6e6efb7763e5b74933a4612d64725716087bd822",
+    "strategy_research.py": "8d176989c0205d842c23555ddee9a654e8094c5d19a54b5fcc53ff5d2516b79d"
+  },
+  "publication_files": {
+    "index.html": {
+      "media_type": "text/html",
+      "sha256": "18d0df51bd7720e23b722ba25d5f0aafd451659ae62d9499724a3a0f6ae7a895",
+      "size": 38313
+    },
+    "styles.css": {
+      "media_type": "text/css",
+      "sha256": "1ea6b8c8188c54316be813a5e09acaf01625fbdd66ad22a510c3ac7c0be36772",
+      "size": 6082
+    },
+    "favicon.svg": {
+      "media_type": "image/svg+xml",
+      "sha256": "a31d8cc824ed10cca5cbd9e58f070757c6d875162ea15e3365a74cd040a5f3fc",
+      "size": 254
+    },
+    "evidence/confirmation-summary.json": {
+      "media_type": "application/json",
+      "sha256": "ffad0d9948a1ff8c886a72dbf10f1dc455014a058d442291b81f6295cbd37c24",
+      "size": 862527
+    },
+    "evidence/provenance.json": {
+      "media_type": "application/json",
+      "sha256": "803dc9c19a1aec5fb0cfe777745a7323d7d4c1d4a2568051ef0d9a000dda6656",
+      "size": 1392
+    }
+  },
+  "required_visible_claims": [
+    {
+      "tag": "h1",
+      "text": "Strategy results & counters"
+    },
+    {
+      "tag": "h2",
+      "id": "main-finding",
+      "text": "Bid from probability. Skip deliberate bluffs."
+    },
+    {
+      "tag": "p",
+      "class": "description",
+      "text": "All seven two-player leaders used probability-based bidding with deliberate bluffing set to zero. A useful starting point in this tested field; the best choice still depends on the rules and opponents."
+    },
+    {
+      "tag": "strong",
+      "text": "7 / 7"
+    },
+    {
+      "tag": "h2",
+      "id": "heads-up-title",
+      "text": "Best observed heads-up choices"
+    },
+    {
+      "tag": "h2",
+      "id": "multiplayer-title",
+      "text": "With three to six players"
+    },
+    {
+      "tag": "h2",
+      "id": "counters-title",
+      "text": "Counters with supported advantages"
+    },
+    {
+      "tag": "h2",
+      "id": "method-title",
+      "text": "About the evidence"
+    },
+    {
+      "tag": "p",
+      "text": "The simultaneous 95% bounds cover 5,180 estimates and treat each whole rotation block as the unit of evidence. They are intentionally conservative. No observed three-strategy counter cycle had all three edges supported."
+    },
+    {
+      "tag": "p",
+      "text": "Research completed September 9, 2026"
+    }
+  ]
+}

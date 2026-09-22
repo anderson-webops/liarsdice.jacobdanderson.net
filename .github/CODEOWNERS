@@ -1,0 +1,8 @@
+/.github/CODEOWNERS @Jacoba1100254352
+/.github/workflows/ @Jacoba1100254352
+/dist/ @Jacoba1100254352
+/scripts/check_site.py @Jacoba1100254352
+/scripts/release_artifact.py @Jacoba1100254352
+/scripts/test_site.py @Jacoba1100254352
+/scripts/test_release_artifact.py @Jacoba1100254352
+/security/approved-publication.json @Jacoba1100254352
