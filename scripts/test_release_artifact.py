@@ -28,7 +28,7 @@ class ReleaseArtifactTests(unittest.TestCase):
         self.root.mkdir()
         shutil.copytree(ROOT / 'dist', self.root / 'dist')
         shutil.copytree(ROOT / 'security', self.root / 'security')
-        shutil.copy2(ROOT / 'VERSION', self.root / 'VERSION')
+        (self.root / 'VERSION').write_text('1.0.0\n')
         self.manifest = build_release(
             self.root,
             self.release,
