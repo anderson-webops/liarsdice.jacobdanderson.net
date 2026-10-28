@@ -1,5 +1,14 @@
 # Repository Instructions
 
+## Standing Dependency Completion Policy
+
+Read and follow the standing dependency completion policy in `AGENTS.md` in
+this directory. It requires complete dependency remediation, clean locked
+installations, zero-vulnerability full and production audits, applicable checks
+before release, and validated source delivery. Existing maintenance pauses,
+exclusions, approvals and production-access boundaries remain in force.
+Published releases and verified live deployments are separate outcomes.
+
 ## GitGuardian Availability
 
 - Use GitGuardian/`ggshield` when available. Quota, authentication, network, or service failures are not commit or push blockers. Record the scan as unavailable, review staged and outgoing changes, run an available independent local secret scan, and proceed with the other required checks. Never ignore a confirmed secret finding or claim a failed scan passed.
